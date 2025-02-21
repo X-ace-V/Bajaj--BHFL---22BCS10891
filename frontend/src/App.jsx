@@ -33,7 +33,7 @@ function App() {
   const [selectedOptions, setSelectedOptions] = useState([]);
 
   // Use your localhost backend URL here
-  const backendUrl = "http://localhost:3000/bfhl/bajaj";
+  const backendUrl = "https://bajaj-bhfl-22bcs10891.onrender.com/bfhl/bajaj";
 
   const handleSubmit = async (e) => {
     e.preventDefault();
